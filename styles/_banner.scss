@@ -1,0 +1,59 @@
+.banner {
+    color: $text-color1;
+    padding: 218px 0 185px;
+
+    &__title {
+      font-size: 3.8636rem;
+      max-width: 914px;
+      margin: 0 auto;
+    }
+  
+    &__description {
+      font-size: 1.1364rem;
+      font-weight: 400;
+      margin: 35px 0 60px;  
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .banner {  
+    padding: 183px 0 153px; 
+
+    &__title {
+      font-size: 2.7273rem;
+      max-width: 697px;      
+      letter-spacing: 0.07em;
+      }    
+
+    &__descriprion {
+      margin-bottom: 63px; 
+      font-size: 0.8182rem;
+    }
+  }   
+}
+
+@media screen and (max-width: 768px) {
+  .banner {
+    padding: 171px 0 99px;
+
+    &__title {
+      max-width: 329px;
+      font-size: 2.2727rem;
+    }    
+
+    &__description {
+      margin-bottom: 66px;
+    }
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .banner { 
+    &__description {
+      max-width: 360px;
+      margin: 30px auto 60px;
+      
+    } 
+  }  
+}
+

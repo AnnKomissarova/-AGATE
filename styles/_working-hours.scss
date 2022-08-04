@@ -1,0 +1,16 @@
+.working-hours {
+    font-size: 1.1364rem;    
+}
+
+@media screen and (max-width: 1024px) {
+    .working-hours {
+        font-size: 0.9091rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .working-hours {        
+    font-size: 0.8182rem;
+    }
+}
+

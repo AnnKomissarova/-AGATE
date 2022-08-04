@@ -1,0 +1,22 @@
+.secondary-title {
+    @include h2-title;
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .secondary-title {
+        font-size: 1.5909rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .secondary-title {
+        font-size: 1.3636rem;
+    }
+}
+
+@media screen and (max-width: 678px) {
+    .secondary-title {
+        font-size: 1.1818rem;
+    }
+}

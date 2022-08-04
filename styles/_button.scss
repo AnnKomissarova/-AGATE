@@ -1,0 +1,23 @@
+.button {
+    margin: 0 auto;
+   
+    &--black {
+        @include buttons($text-color2, $text-color2); 
+
+        @media screen and (max-width: 1024px) {
+            @include botton-size-1024;      
+        }  
+    }
+
+    &--white {
+        @include buttons($text-color1, $text-color1); 
+
+        @media screen and (max-width: 1024px) {           
+            @include botton-size-1024;      
+        }
+    }
+
+   &:hover {
+    @include h-buttons;
+   }   
+  }

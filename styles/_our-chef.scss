@@ -1,0 +1,93 @@
+.our-chef {
+    background-color: $bg-primary-color;
+    padding: 100px 0;
+
+    &__caption {
+        font-size: 1.1364rem;
+        margin: 30px 0;
+    }
+
+    &__text {
+        @include paragraph-style(939px);
+    }
+
+    &__img {
+        margin-bottom: 30px;
+        max-width: 398px;
+        width: 100%; 
+    }   
+}
+
+@media screen and (max-width: 1024px) {
+    .our-chef {
+        padding: 80px 0;
+
+        &__img {
+            width: 282px;
+        }
+
+        &__caption {
+            font-size: 1rem;
+        }
+    
+        &__text { 
+            @include paragraph-style1024(691px);
+        }
+    } 
+}
+
+@media screen and (max-width: 768px) {
+    .our-chef {
+        padding: 70px 0;
+
+        &__img {
+            width: 251px;
+        }
+
+        &__caption {
+            font-size: 0.9091rem;
+        }
+    
+        &__text { 
+            @include paragraph-style768(626px);
+        }
+    } 
+}
+
+@media screen and (max-width: 620px) {
+    .our-chef {
+        padding: 60px 0;
+
+        &__img {
+            width: 230px;
+        }
+    
+        &__text { 
+            @include paragraph-style600(540px);
+        }
+    }  
+}
+
+@media screen and (max-width: 540px) {
+    .our-chef {
+        padding: 40px 0;
+
+        &__img {
+            width: 190px;
+        }
+    
+        &__text { 
+            @include paragraph-style450(450px);
+        }
+    }  
+}
+
+@media screen and (max-width: 450px) {
+    .our-chef {
+        padding: 30px 0;
+    
+        &__text { 
+            @include paragraph-style450(350px);
+        }
+    }   
+}

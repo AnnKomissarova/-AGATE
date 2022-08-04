@@ -1,0 +1,25 @@
+.scrollup {
+  position: fixed;   
+  background-color: #FFAC1C; 
+  right: 19px; 
+  bottom: 19px;  
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  cursor: pointer; 
+  text-align: center; 
+  line-height: 75px;
+  color:$text-color1;
+  font-size: 1.6rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .scrollup {
+    font-size: 1.2rem;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    right: 10px;
+  }
+}
+

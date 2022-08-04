@@ -1,0 +1,44 @@
+.about {
+    background-color: $bg-primary-color;
+
+    &__text {
+        @include paragraph-style(941px);        
+        padding: 100px 0; 
+    }    
+}
+
+@media screen and (max-width: 1024px) {
+    .about { 
+        &__text { 
+            @include paragraph-style1024(602px);
+            padding: 80px 0;
+        }
+    }    
+}
+
+@media screen and (max-width: 768px) {
+    .about {
+        &__text { 
+            @include paragraph-style768(541px);
+            padding: 70px 0;
+        }
+    }       
+}
+
+@media screen and (max-width: 600px) {
+    .about {
+        &__text { 
+            @include paragraph-style600(450px);
+            padding: 60px 0;
+        }
+    }      
+}
+
+@media screen and (max-width: 450px) {
+    .about {
+        &__text { 
+            @include paragraph-style450(380px);
+            padding: 50px 0;
+        }
+    }       
+}
